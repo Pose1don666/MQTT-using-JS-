@@ -1,0 +1,12 @@
+{
+  "name": "mqtt-package",
+  "version": "1.0.0",
+  "description": "realization of mqtt protocol using node.js",
+  "main": "mqtt-protocol.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mqtt"],
+  "author": "",
+  "license": "ISC"
+}

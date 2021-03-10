@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../components/index.js"],
+  "sourcesContent": ["exports.PrintMsg = function(){\r\n    console.log(\"This is mqtt-protocol package for node.js\")\r\n}"],
+  "mappings": "gEAAA,cAAQ,SAAW,UAAU,CACzB,QAAQ,IAAI",
+  "names": []
+}

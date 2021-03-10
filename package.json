@@ -1,12 +1,35 @@
 {
-  "name": "mqtt-package",
+  "name": "svelte-mqtt-protocol",
   "version": "1.0.0",
-  "description": "realization of mqtt protocol using node.js",
-  "main": "mqtt-protocol.js",
+  "description": "realization of mqtt protocol using nodejs",
+  "svelte": "components/index.js",
+  "module":"dist/mqtt.mjs",
+  "cdn":"dist/mqtt.min.js",
+  "unpkg":"dist/mqtt.min.js",
   "scripts": {
+    "prepublish":"npm run build",
+    "build":"node esbuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mqtt"],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pose1don666/MQTT-using-JS-.git"
+  },
+  "keywords": [
+    "mqtt"
+  ],
+  "author": "pose1don666",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pose1don666/MQTT-using-JS-/issues"
+  },
+  "homepage": "https://github.com/Pose1don666/MQTT-using-JS-#readme",
+  "devDependencies": {
+    "esbuild": "^0.9.0",
+    "esbuild-svelte": "^0.4.3",
+    "svelte": "^3.35.0"
+  },
+  "peerDependencies": {
+    "svelte": "3.x"
+  }
 }
